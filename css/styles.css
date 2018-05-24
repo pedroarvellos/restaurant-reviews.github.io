@@ -2,7 +2,7 @@
 /* CSS Document */
 
 * {
-  border: 1px solid red !important;
+  /* border: 1px solid red !important; */
 }
 
 * {
@@ -231,6 +231,8 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+
+  align-self: center;
 }
 
 /* ====================== Restaurant Details ====================== */

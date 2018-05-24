@@ -1,10 +1,39 @@
 /* Media Query for Medium Screen. */
-@media screen and (max-width: 956px) {
+@media screen and (min-width:641px) and (max-width:956px) {
   #restaurants-list {
     justify-content: center;
   }
 
   #restaurants-list li {
     width: 40%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #restaurants-list {
+    justify-content: center;
+  }
+
+  #restaurants-list li {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  #restaurants-list {
+    justify-content: center;
+  }
+
+  #restaurants-list li {
+    width: 70%;
+  }
+
+  .filter-options {
+    height: 85%;
+    flex-direction: column;
+  }
+
+  .filter-options h2 {
+    margin-top: 10px;
   }
 }
