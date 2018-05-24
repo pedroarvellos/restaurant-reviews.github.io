@@ -1,4 +1,4 @@
-/* Media Query for Medium Screen. */
+/* Media Query for max-width:956px. */
 @media screen and (min-width:641px) and (max-width:956px) {
   #restaurants-list {
     justify-content: center;
@@ -9,6 +9,7 @@
   }
 }
 
+/* Media Query for max-width: 640px. */
 @media screen and (max-width: 640px) {
   #restaurants-list {
     justify-content: center;
@@ -19,6 +20,7 @@
   }
 }
 
+/* Media Query for max-width: 595px. */
 @media screen and (max-width: 595px) {
   #restaurants-list {
     justify-content: center;
