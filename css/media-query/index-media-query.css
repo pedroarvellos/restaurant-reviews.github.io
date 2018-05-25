@@ -1,5 +1,5 @@
 /* Media Query for max-width:956px. */
-@media screen and (min-width:641px) and (max-width:956px) {
+@media screen and (max-width:956px) {
   #restaurants-list {
     justify-content: center;
   }

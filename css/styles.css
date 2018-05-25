@@ -242,9 +242,14 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
+
+.inside #breadcrumb {
+  width: 50%;
+}
+
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 100%;
   position: fixed;
   right: 0;
   top: 80px;
@@ -322,7 +327,11 @@ nav h1 a {
   width: 85%;
 }
 #reviews-list li p {
-  margin: 0 0 10px;
+  margin: 0px 0 10px;
+}
+#reviews-list li p:first-child {
+  margin-top: 10px;
+  font-weight: bold;
 }
 #restaurant-hours td {
   color: #666;
