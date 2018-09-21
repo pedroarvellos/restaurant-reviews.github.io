@@ -38,7 +38,7 @@ this.addEventListener('install', event => {
   );
 });
 
-// Clear cache on activate
+//Clear cache on activate
 this.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -52,7 +52,7 @@ this.addEventListener('activate', event => {
   );
 });
 
-// Serve from Cache
+//Every request this method is called
 this.addEventListener("fetch", event => {
   event.respondWith(
     caches.match(event.request)
