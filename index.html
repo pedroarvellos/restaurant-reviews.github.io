@@ -28,19 +28,20 @@
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
+        <select id="neighborhoods-select" tabindex="0" name="neighborhoods" onchange="updateRestaurants()">
+          <option value="all" tabindex="0">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
+        <select id="cuisines-select" tabindex="0" name="cuisines" onchange="updateRestaurants()">
+          <option value="all" tabindex="0">All Cuisines</option>
         </select>
       </div>
-      <ul id="restaurants-list" class=""></ul>
+      <ul id="restaurants-list" class=""  tabindex="0"></ul>
     </section>
   </main>
 
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
+  <script type="text/javascript" src="./ServiceWorker.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRQSQd7cwt1BdrCbwrB2gc01WwETqooZc&libraries=places&callback=initMap"></script>
 
   <footer id="footer">
