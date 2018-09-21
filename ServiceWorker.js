@@ -1,4 +1,4 @@
-//This file is responsible to save the info in the browser.
+//This file is responsible to save the info in the browser
 const staticName = "20-09-2018-reviews"
 
 const filesToBeSaved = [
