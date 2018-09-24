@@ -2,6 +2,7 @@
 const staticName = "20-09-2018-reviews"
 
 const filesToBeSaved = [
+    "/",
     "./img/1.jpg",
     "./img/2.jpg",
     "./img/3.jpg",
