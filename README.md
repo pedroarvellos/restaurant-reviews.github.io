@@ -56,7 +56,7 @@ One other option is to use a simple and zero-configuration command-line node htt
 │   │   ├── restaurant_info.js
 
 The project can be opened in any text editor, for example: _Sublime Text_, _Visual Studio_,  _Atom_, etc. To execute the project.
-
+```
 ### Note about ES6
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code.
